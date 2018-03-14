@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+    padding: 20px;
+    margin:0px;
+
+}
+
+.header{
+    background-color: aquamarine;
+    padding: 0px;
+}
+
+ul.header li{
+    display: inline;
+    list-style-type: none;
+    margin: 0px
+}
+
+.content {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.active{
+    background-color: burlywood
+}
