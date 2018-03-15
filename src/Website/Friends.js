@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import FetchFriends from "./FetchFriendsFromSpringBoot/FetchFriends";
+
 class Friends extends React.Component{
     render(){
         return(
@@ -28,7 +30,7 @@ class Friends extends React.Component{
 
 
 </p>
-                
+              <FetchFriends></FetchFriends> 
             
 
             </div>    

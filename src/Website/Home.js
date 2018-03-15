@@ -16,7 +16,7 @@ class Home extends React.Component{
                     <li> Friends </li>
                     <li> Profile</li>
                 </ul>
-            
+          
 
             </div>    
 
