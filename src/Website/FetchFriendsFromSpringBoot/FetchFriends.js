@@ -13,6 +13,9 @@ class FetchFriends extends React.Component{
             name:'',
             location:''
         };
+
+        this.onChange = this.onChange.bind(this);
+        this.onSubmit = this.onSubmit.bind(this);
     }
 
     getFriendsData(){
