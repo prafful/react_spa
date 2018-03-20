@@ -1,3 +1,5 @@
+API Key: AIzaSyC25Z78BmfwywAcYvZ8kTpML8rSRSWD9eY
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
