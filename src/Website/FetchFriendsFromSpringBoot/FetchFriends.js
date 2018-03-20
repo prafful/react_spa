@@ -19,7 +19,7 @@ class FetchFriends extends React.Component{
     }
 
     getFriendsData(){
-        axios.get("http://localhost:8080/friends/")
+        axios.get("http://localhost:8181/friends/")
             .then((res)=>{
                  //console.log(res.data); 
                  this.setState({
@@ -45,7 +45,8 @@ class FetchFriends extends React.Component{
     onSubmit(event){
         event.preventDefault();
         const { id, name, location} = this.state;
-        axios.post('http://localhost:8080/friends/',{
+        axios.post('http://localhost:8181/friends/',
+                                {
                                     'id':this.state.id,
                                     'name':this.state.name,
                                     'location':this.state.location
